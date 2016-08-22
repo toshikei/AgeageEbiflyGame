@@ -1,7 +1,6 @@
 //app.js
-/* 7.20現在は、パーティクルの画像・大きさ変更、えびちゃん01とうどんのみ表示,えびちゃんの
-位置を修正
-*/
+/*パーティクルの画像・大きさ変更、えびちゃん01とうどんのみ表示,えびちゃんの
+位置を修正*/
 var size;
 
 var mylabel;
@@ -26,7 +25,7 @@ var gameScene = cc.Scene.extend({
     gameLayer = new game();
     gameLayer.init();
     this.addChild(gameLayer);
-    //音楽再生エンジン
+    //音楽再生エンジンｐ
     audioEngine = cc.audioEngine;
     //bgm再生
     if (!audioEngine.isMusicPlaying()) {

@@ -1,8 +1,8 @@
-ｐvar res = {
-    background_png : "res/background.png",
-    ship_png : "res/ship.png",
-    particle_png : "res/particle.png",
-    asteroid_png : "res/asteroid.png",
+var res = {
+    background_png : "res/background2.png",
+    shrimp_png : "res/shrimp01.png",
+    particle_png : "res/awa.png",
+    asteroid_png : "res/nagoya0.png",
     bgm_main : "res/bgm_main.mp3",
     se_bang : "res/se_bang.mp3"
 
